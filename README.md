@@ -1,23 +1,20 @@
-# Projeto Baseado em main.ipynb
+# Projeto de Análise de Dados em Patologias Pediátricas
 
-## Seções Extraídas do Notebook
-- **<center> <img src="figs/LogoUFSCar.jpg" alt="Logo UFScar" width="110" align="left"/>  <br/> <center>Universidade Federal de São Carlos (UFSCar)<br/><font size="4"> Departamento de Computação, campus Sorocaba</center></font>**
-  - **<center>Projeto Final</center>**
-    - **Packages utilizados ao longo do experimento e considerações adicionais**
-    - **Imports iniciais**
-    - **Análise exploratória**
-    - **Pré-processamento**
-    - **Experimento**
-    - **Análise dos Resultados**
+Este repositório contém um experimento que envolve a análise exploratória, o pré-processamento e a modelagem de dados no contexto de patologias cardíacas pediátricas.
+
+## Seções
+  1. **Packages utilizados ao longo do experimento e considerações adicionais**
+  2. **Imports iniciais**
+  3. **Análise exploratória**
+  4. **Pré-processamento**
+  5. **Experimento**
+  6. **Análise dos Resultados**
 
 ## Como Executar
-1. Clone o repositório e entre na pasta do projeto.
-2. Crie e ative um ambiente virtual.
-3. Instale as dependências:
+
+1. Instale o [Python 3.10.11](https://www.python.org/downloads/) e a [distribuição Anaconda](https://www.anaconda.com/products/distribution).
+2. Clone este repositório e navegue até a pasta do projeto:
    ```bash
-   pip install -r requirements.txt
-   ```
-4. Abra o notebook:
-   ```bash
-   jupyter notebook main.ipynb
-   ```
+   git clone <URL_DO_REPOSITORIO>
+   cd <NOME_DA_PASTA>
+3. Execute os comandos de instalação dos pacotes e, em seguida, execute as células do notebook na ordem apresentada para reproduzir todo o fluxo do experimento.
